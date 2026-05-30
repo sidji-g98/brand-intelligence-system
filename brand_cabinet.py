@@ -35,6 +35,11 @@ def build_cabinet():
     print(f"Loaded {len(docs)} chunks into the cabinet.")
     return collection
 
+def get_cabinet():
+    """Open the existing cabinet (after it's been built once)."""
+    client = chromadb.PersistentClient(path="chroma_db")
+    return client.get_collection("brand_knowledge")
+
 def ask_cabinet(collection, question, n=3):
     results = collection.query(query_texts=[question], n_results=n)
     snippets = results["documents"][0]
