@@ -1,0 +1,48 @@
+{
+  "sentiment": {
+    "positive": 92,
+    "neutral": 7,
+    "negative": 1
+  },
+  "praise_themes": [
+    "Authentic & Traditional South Indian Flavors",
+    "Extensive Variety & Regional Delicacies",
+    "Home-made Quality & Freshness",
+    "Clean Label & Healthy Ingredients (No Palm Oil/Preservatives)",
+    "Convenient Global Delivery Service",
+    "High Taste & Craveability"
+  ],
+  "complaint_themes": [
+    "Delivery Delays & Logistics Issues",
+    "Potential for Specific Product Availability Gaps",
+    "Possible Price Sensitivity among certain segments (inferred)"
+  ],
+  "competitor_positioning": [
+    {
+      "brand": "Haldiram's",
+      "positioning": "Mass-market leader for traditional Indian snacks, wide variety, trusted brand, accessible."
+    },
+    {
+      "brand": "Grand Sweets and Snacks",
+      "positioning": "Established regional leader for traditional South Indian sweets & snacks, known for freshness, taste, and in-store experience."
+    },
+    {
+      "brand": "Open Secret",
+      "positioning": "Premium, healthy, modern Indian snacks, strong family appeal, gifting focus, emphasized nutritional value."
+    },
+    {
+      "brand": "Beyond Snack",
+      "positioning": "Premium, single-product focus (banana chips), elevating a traditional snack for global aspirations and quality."
+    },
+    {
+      "brand": "Patang",
+      "positioning": "Premium regional Indian snacks, modern branding, diverse flavor profiles, gifting-oriented combos."
+    },
+    {
+      "brand": "Zerobeli",
+      "positioning": "Health-focused snacks, catering to specific dietary needs like gluten-free, modern snack alternatives."
+    }
+  ],
+  "clean_label_landscape": "Sweet Karam Coffee strongly owns the clean-label narrative with explicit claims like \"No Palm Oil or Preservatives\" and emphasis on home-made, traditional preparation in small batches. Competitors like Open Secret and Beyond Snack leverage broader \"healthy,\" \"nutritional,\" or \"premium\" positioning, often with modern snack formats or specific dietary claims like gluten-free. The open gap for Sweet Karam Coffee lies in translating its unique traditional ingredient purity and cooking methods (e.g., pure ghee, jaggery, specific healthy oils) into more explicit, consumer-understandable modern health benefits beyond just avoiding negatives, further solidifying its \"Good Food Revolution\" promise.",
+  "key_insight": "Sweet Karam Coffee's unique global clean-label promise for authentic South Indian snacks creates a powerful, high-demand niche, making scaled logistics its most critical growth enabler."
+}
