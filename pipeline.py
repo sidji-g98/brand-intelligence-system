@@ -4,7 +4,14 @@ from ddgs import DDGS
 from google import genai
 
 load_dotenv()
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+API_KEY = os.environ.get("GEMINI_API_KEY")
+if not API_KEY:
+    try:
+        import streamlit as st
+        API_KEY = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        pass
+client = genai.Client(api_key=API_KEY)
 
 def _generate(prompt, retries=3):
     for i in range(retries):
