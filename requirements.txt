@@ -1,7 +1,5 @@
-crewai
-chromadb
-ddgs
 streamlit
 plotly
-google-generativeai
+ddgs
+google-genai
 python-dotenv
